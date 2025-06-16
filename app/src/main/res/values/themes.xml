@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.OmborBoshqaruv" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Ilova ranglari -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary</item>
+
+        <!-- Fon va matn -->
+        <item name="android:windowBackground">@color/backraund</item>
+        <item name="android:textColor">@color/black</item>
+
+        <!-- Statusbar dizayni -->
+        <item name="android:statusBarColor">@color/backraund</item>
+        <item name="android:windowLightStatusBar">false</item> <!-- false = oq iconlar -->
+    </style>
+</resources>

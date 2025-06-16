@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">OmborBoshqaruv</string>
+    <string name="welcome_text">Yagona platforma bilan omboringizni nazorat qiling
+\nKirim, chiqim, va mahsulot qoldig‘ini boshqarish — oson va qulay!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="unit">
+        <item>dona</item>
+        <item>kg</item>
+        <item>litr</item>
+        <item>metr</item>
+        <item>paket</item>
+
+    </string-array>
+    <string-array name="period_options">
+        <item>Kunlik</item>
+        <item>Haftalik</item>
+        <item>Oylik</item>
+    </string-array>
+
+    <string-array name="expense_categories">
+        <item>Transport</item>
+        <item>Elektr</item>
+        <item>Ish haqi</item>
+        <item>Ijaralar</item>
+        <item>Boshqa</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+
+    android:layout_height="match_parent"
+    android:background="@color/backraund"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UI.PraductDetailActivity">
+
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/login_btn"
+        android:elevation="4dp"
+        android:fitsSystemWindows="true"
+        app:layout_collapseMode="pin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/arrow_back_24px"
+        app:title="Mahsulot haqida"
+        app:titleTextColor="@color/backraund" />
+
+
+
+
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+           <androidx.cardview.widget.CardView
+               android:layout_margin="10dp"
+               app:cardBackgroundColor="@color/login_btn"
+               app:cardElevation="4dp"
+               app:cardCornerRadius="15dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+                   <androidx.cardview.widget.CardView
+                       android:layout_gravity="center"
+                       app:cardCornerRadius="20dp"
+                       app:cardElevation="4dp"
+                       android:layout_margin="10dp"
+                       app:cardBackgroundColor="@color/backraund"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <ImageView
+                           android:id="@+id/mahsulotRasmi"
+                           android:layout_margin="10dp"
+                           android:src="@drawable/img_2"
+                           android:layout_width="match_parent"
+                           android:layout_height="150dp"/>
+                   </androidx.cardview.widget.CardView>
+
+                   <com.google.android.material.card.MaterialCardView
+
+                       android:id="@+id/accountSettingsItem"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginTop="5dp"
+                       android:layout_marginBottom="5dp"
+                       android:layout_marginEnd="10dp"
+                       app:cardBackgroundColor="@color/backraund"
+                       app:cardCornerRadius="8dp"
+                       app:cardElevation="0dp"
+                       app:strokeWidth="0dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center_vertical"
+                           android:orientation="horizontal"
+                           android:padding="16dp">
+
+                           <ImageView
+                               android:layout_width="24dp"
+                               android:layout_height="24dp"
+                               android:src="@drawable/local_mall_24px"/>
+
+                           <TextView
+                               android:id="@+id/textMahsulotNomi"
+                               android:layout_width="0dp"
+                               android:layout_height="wrap_content"
+                               android:layout_marginStart="16dp"
+                               android:layout_weight="1"
+                               android:text="Mahsulot Nomi"
+                               android:textColor="@color/login_btn"
+                               android:textSize="16sp"/>
+
+
+                       </LinearLayout>
+                   </com.google.android.material.card.MaterialCardView>
+                   <com.google.android.material.card.MaterialCardView
+
+
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginTop="5dp"
+                       android:layout_marginBottom="5dp"
+                       android:layout_marginEnd="10dp"
+                       app:cardBackgroundColor="@color/backraund"
+                       app:cardCornerRadius="8dp"
+                       app:cardElevation="0dp"
+                       app:strokeWidth="0dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center_vertical"
+                           android:orientation="horizontal"
+                           android:padding="16dp">
+
+                           <ImageView
+                               android:layout_width="24dp"
+                               android:layout_height="24dp"
+                               android:src="@drawable/integration_instructions_24px"/>
+
+                           <TextView
+                               android:id="@+id/textMahsulotkod"
+                               android:layout_width="0dp"
+                               android:layout_height="wrap_content"
+                               android:layout_marginStart="16dp"
+                               android:layout_weight="1"
+                               android:text="Mahsulot Kodi"
+                               android:textColor="@color/login_btn"
+                               android:textSize="16sp"/>
+
+
+                       </LinearLayout>
+                   </com.google.android.material.card.MaterialCardView>
+                   <com.google.android.material.card.MaterialCardView
+
+
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginTop="5dp"
+                       android:layout_marginBottom="5dp"
+                       android:layout_marginEnd="10dp"
+                       app:cardBackgroundColor="@color/backraund"
+                       app:cardCornerRadius="8dp"
+                       app:cardElevation="0dp"
+                       app:strokeWidth="0dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center_vertical"
+                           android:orientation="horizontal"
+                           android:padding="16dp">
+
+                           <ImageView
+                               android:layout_width="24dp"
+                               android:layout_height="24dp"
+                               android:src="@drawable/barcode_scanner_24px"/>
+
+                           <TextView
+                               android:id="@+id/textMahsulotShtixKod"
+                               android:layout_width="0dp"
+                               android:layout_height="wrap_content"
+                               android:layout_marginStart="16dp"
+                               android:layout_weight="1"
+                               android:text="Mahsulot Shtrix Kodi"
+                               android:textColor="@color/login_btn"
+                               android:textSize="16sp"/>
+
+
+                       </LinearLayout>
+                   </com.google.android.material.card.MaterialCardView>
+                   <com.google.android.material.card.MaterialCardView
+
+
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginTop="5dp"
+                       android:layout_marginBottom="5dp"
+                       android:layout_marginEnd="10dp"
+                       app:cardBackgroundColor="@color/backraund"
+                       app:cardCornerRadius="8dp"
+                       app:cardElevation="0dp"
+                       app:strokeWidth="0dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center_vertical"
+                           android:orientation="horizontal"
+                           android:padding="16dp">
+
+                           <ImageView
+                               android:layout_width="24dp"
+                               android:layout_height="24dp"
+                               android:src="@drawable/scale_24px"/>
+
+                           <TextView
+                               android:id="@+id/textMahsulotBirligi"
+                               android:layout_width="0dp"
+                               android:layout_height="wrap_content"
+                               android:layout_marginStart="16dp"
+                               android:layout_weight="1"
+                               android:text="Mahsulot o'lchov birligi"
+                               android:textColor="@color/login_btn"
+                               android:textSize="16sp"/>
+
+
+                       </LinearLayout>
+                   </com.google.android.material.card.MaterialCardView>
+                   <com.google.android.material.card.MaterialCardView
+
+
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginTop="5dp"
+                       android:layout_marginBottom="5dp"
+                       android:layout_marginEnd="10dp"
+                       app:cardBackgroundColor="@color/backraund"
+                       app:cardCornerRadius="8dp"
+                       app:cardElevation="0dp"
+                       app:strokeWidth="0dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center_vertical"
+                           android:orientation="horizontal"
+                           android:padding="16dp">
+
+                           <ImageView
+                               android:layout_width="24dp"
+                               android:layout_height="24dp"
+                               android:src="@drawable/payment_arrow_down_24px"/>
+
+                           <TextView
+                               android:id="@+id/textMahsulotKirimNarxi"
+                               android:layout_width="0dp"
+                               android:layout_height="wrap_content"
+                               android:layout_marginStart="16dp"
+                               android:layout_weight="1"
+                               android:text="Mahsulot Sotib olish narxi"
+                               android:textColor="@color/login_btn"
+                               android:textSize="16sp"/>
+
+
+                       </LinearLayout>
+                   </com.google.android.material.card.MaterialCardView>
+                   <com.google.android.material.card.MaterialCardView
+
+
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginTop="5dp"
+                       android:layout_marginBottom="5dp"
+                       android:layout_marginEnd="10dp"
+                       app:cardBackgroundColor="@color/backraund"
+                       app:cardCornerRadius="8dp"
+                       app:cardElevation="0dp"
+                       app:strokeWidth="0dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center_vertical"
+                           android:orientation="horizontal"
+                           android:padding="16dp">
+
+                           <ImageView
+                               android:layout_width="24dp"
+                               android:layout_height="24dp"
+                               android:src="@drawable/payments_24px"/>
+
+                           <TextView
+                               android:id="@+id/textMahsulotchiqimNarxi"
+                               android:layout_width="0dp"
+                               android:layout_height="wrap_content"
+                               android:layout_marginStart="16dp"
+                               android:layout_weight="1"
+                               android:text="Mahsulot Sotish narxi"
+                               android:textColor="@color/login_btn"
+                               android:textSize="16sp"/>
+
+
+                       </LinearLayout>
+                   </com.google.android.material.card.MaterialCardView>
+                   <com.google.android.material.card.MaterialCardView
+
+
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginTop="5dp"
+                       android:layout_marginBottom="5dp"
+                       android:layout_marginEnd="10dp"
+                       app:cardBackgroundColor="@color/backraund"
+                       app:cardCornerRadius="8dp"
+                       app:cardElevation="0dp"
+                       app:strokeWidth="0dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center_vertical"
+                           android:orientation="horizontal"
+                           android:padding="16dp">
+
+                           <ImageView
+                               android:layout_width="24dp"
+                               android:layout_height="24dp"
+                               android:src="@drawable/production_quantity_limits"/>
+
+                           <TextView
+                               android:id="@+id/textMahsulotMinZaxira"
+                               android:layout_width="0dp"
+                               android:layout_height="wrap_content"
+                               android:layout_marginStart="16dp"
+                               android:layout_weight="1"
+                               android:text="Mahsulot min zaxirasi "
+                               android:textColor="@color/login_btn"
+                               android:textSize="16sp"/>
+
+
+                       </LinearLayout>
+                   </com.google.android.material.card.MaterialCardView>
+                   <com.google.android.material.card.MaterialCardView
+
+
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginTop="5dp"
+                       android:layout_marginBottom="15dp"
+                       android:layout_marginEnd="10dp"
+                       app:cardBackgroundColor="@color/backraund"
+                       app:cardCornerRadius="8dp"
+                       app:cardElevation="0dp"
+                       app:strokeWidth="0dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center_vertical"
+                           android:orientation="horizontal"
+                           android:padding="16dp">
+
+                           <ImageView
+                               android:layout_width="24dp"
+                               android:layout_height="24dp"
+                               android:src="@drawable/rate_review_24px"/>
+
+                           <TextView
+                               android:id="@+id/textMahsulotIzox"
+                               android:layout_width="0dp"
+                               android:layout_height="wrap_content"
+                               android:layout_marginStart="16dp"
+                               android:layout_weight="1"
+                               android:text="Mahsulot Haqida "
+                               android:textColor="@color/login_btn"
+                               android:textSize="16sp"/>
+
+
+                       </LinearLayout>
+                   </com.google.android.material.card.MaterialCardView>
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

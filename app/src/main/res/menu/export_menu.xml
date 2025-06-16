@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_pdf"
+        android:title="PDF yuklab olish" />
+    <item
+        android:id="@+id/menu_excel"
+        android:title="Excel yuklab olish" />
+</menu>
